@@ -1,6 +1,6 @@
 /*Responsive-Portfolio*/
 body {
-  background-color: blanchedalmond;
+  padding-bottom: 70px;
 }
 
 h1,
@@ -11,4 +11,8 @@ h3 {
 
 p {
   font-family: "PT Sans Narrow", sans-serif;
+}
+
+h1 {
+  padding-top: 70px;
 }
