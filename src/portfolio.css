@@ -1,4 +1,13 @@
 /*Responsive-Portfolio*/
+:root {
+  --border-color: #94b1aa;
+  --primary-bg-color: #94b1aa;
+  --secondary-bg-color: #f4f6f6;
+  --primary-text-color: #000;
+  --secondary-text-color: #227d85;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   padding-bottom: 70px;
 }
@@ -15,4 +24,48 @@ p {
 
 h1 {
   padding-top: 70px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-bg-color);
+  box-shadow: var(--box-shadow);
+  color: var(--primary-text-color);
+  transition: all 200ms ease;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--box-shadow);
+  transition: all 200ms ease;
+}
+
+.primary-link:hover {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+  background: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  border: 1px solid var(--primary-color);
+}
+
+.secondary-link:hover {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-bg-color);
+  box-shadow: var(--box-shadow);
+  color: var(--primary-text-color);
 }
