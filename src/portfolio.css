@@ -85,3 +85,7 @@ h3 {
 .navigation-links a {
   margin: 20px;
 }
+
+img {
+  box-shadow: var(--box-shadow);
+}
