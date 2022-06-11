@@ -1,0 +1,14 @@
+/*Responsive-Portfolio*/
+body {
+  background-color: blanchedalmond;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Xanh Mono", monospace;
+}
+
+p {
+  font-family: "PT Sans Narrow", sans-serif;
+}
