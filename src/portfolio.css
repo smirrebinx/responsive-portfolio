@@ -12,6 +12,16 @@ body {
   padding-bottom: 70px;
 }
 
+.portfolio-container {
+  background-color: #fff;
+  border: 10px outset #94b1aa;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: fit-content;
+}
+
 h1,
 h2,
 h3 {
@@ -24,6 +34,8 @@ p {
 
 h1 {
   padding-top: 70px;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .primary-link {
@@ -57,7 +69,7 @@ h1 {
   box-shadow: var(--box-shadow);
   background: var(--secondary-bg-color);
   color: var(--secondary-text-color);
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--border-color);
 }
 
 .secondary-link:hover {
@@ -88,4 +100,15 @@ h3 {
 
 img {
   box-shadow: var(--box-shadow);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 853px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
