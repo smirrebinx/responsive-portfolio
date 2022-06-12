@@ -105,6 +105,11 @@ h3 {
   margin: 20px;
 }
 
+#contact-links,
+#about-links {
+  margin: 0;
+}
+
 .navbar {
   background-color: var(--primary-bg-color);
 }
@@ -119,6 +124,13 @@ h3 {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.fa-linkedin {
+  display: flex;
+  font-size: 48px;
+  justify-content: center;
+  color: #0270ad;
 }
 
 @media (max-width: 900px) {
