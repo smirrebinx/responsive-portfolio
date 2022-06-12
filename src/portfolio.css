@@ -30,12 +30,14 @@ h3 {
 
 p {
   font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.5em;
 }
 
 h1 {
   padding-top: 70px;
   font-size: 4em;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 .primary-link {
@@ -106,7 +108,18 @@ img {
   padding: 120px 60px;
 }
 
-@media (max-width: 853px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
