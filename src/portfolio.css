@@ -105,6 +105,14 @@ h3 {
   margin: 20px;
 }
 
+.navbar {
+  background-color: var(--primary-bg-color);
+}
+
+.navbar a {
+  color: var(--primary-text-color);
+}
+
 #about-avatar {
   border: 10px outset var(--border-color);
 }
