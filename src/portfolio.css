@@ -1,5 +1,7 @@
 /*Responsive-Portfolio*/
 :root {
+  --headings-font-family: "Xanh Mono", monospace;
+  --paragraph-font-family: "PT Sans Narrow", sans-serif;
   --border-color: #94b1aa;
   --primary-bg-color: #94b1aa;
   --secondary-bg-color: #f4f6f6;
@@ -24,11 +26,11 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Xanh Mono", monospace;
+  font-family: var(--headings-font-family);
 }
 
 p {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: var(--paragraph-font-family);
   font-size: 18px;
   line-height: 27px;
 }
