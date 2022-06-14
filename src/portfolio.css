@@ -119,8 +119,7 @@ h3 {
   color: var(--primary-text-color);
 }
 
-#about-img,
-#contact-img {
+.border-img {
   border: 10px outset var(--border-color);
 }
 
