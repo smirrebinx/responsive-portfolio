@@ -46,6 +46,12 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.logo-nav {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
