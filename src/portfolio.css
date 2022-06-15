@@ -52,6 +52,10 @@ img {
   margin-right: 5px;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
