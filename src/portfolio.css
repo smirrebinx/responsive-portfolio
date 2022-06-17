@@ -14,18 +14,6 @@ body {
   padding-bottom: 70px;
 }
 
-.border-container {
-  border: 10px outset var(--border-color);
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  max-width: fit-content;
-}
-
-.background-color {
-  background-color: var(--secondary-bg-color);
-}
-
 h1,
 h2,
 h3 {
@@ -47,6 +35,18 @@ h1 {
 
 img {
   box-shadow: var(--box-shadow);
+}
+
+.border-container {
+  border: 10px outset var(--border-color);
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  max-width: fit-content;
+}
+
+.background-color {
+  background-color: var(--secondary-bg-color);
 }
 
 .primary-link {
@@ -161,6 +161,15 @@ h3 {
 footer .logo img {
   width: 50px;
   border-radius: 50%;
+}
+
+footer .footer-border-container {
+  border-top: 10px outset var(--border-color);
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  background-color: var(--secondary-bg-color);
 }
 
 @media (max-width: 900px) {
