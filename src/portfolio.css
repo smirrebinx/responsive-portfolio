@@ -151,7 +151,7 @@ h3 {
   justify-content: left;
   color: #0270ad;
   padding-left: 25px;
-  /*filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));*/
+  filter: drop-shadow(2px 4px 1px rgb(0 0 0 / 0.3));
 }
 
 .fa-github {
@@ -160,7 +160,7 @@ h3 {
   justify-content: left;
   color: #000;
   padding-left: 25px;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  filter: drop-shadow(2px 4px 1px rgb(0 0 0 / 0.3));
 }
 
 footer .logo img {
