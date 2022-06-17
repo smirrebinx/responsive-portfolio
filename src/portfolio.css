@@ -140,6 +140,11 @@ h3 {
   padding: 120px 60px;
 }
 
+.linkedin-link {
+  color: #000;
+  text-decoration: underline;
+}
+
 .fa-linkedin {
   display: flex;
   font-size: 38px;
