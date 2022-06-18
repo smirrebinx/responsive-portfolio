@@ -37,6 +37,10 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.transparent-img {
+  opacity: 0.4;
+}
+
 #mywork-image {
   width: 350px;
 }
