@@ -48,13 +48,13 @@ img {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(148, 177, 170, 0.7);
   width: 100%;
   padding: 20px;
 }
 
 .image-container p {
-  color: #fff;
+  color: var(--primary-text-color);
 }
 
 #mywork-image {
