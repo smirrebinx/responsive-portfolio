@@ -37,6 +37,10 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+#mywork-image {
+  width: 350px;
+}
+
 .border-container {
   border: 10px outset var(--border-color);
   margin: 0 auto;
