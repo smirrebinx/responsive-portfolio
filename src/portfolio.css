@@ -7,6 +7,7 @@
   --secondary-bg-color: #f4f6f6;
   --primary-text-color: #000;
   --secondary-text-color: #000;
+  --image-link-color: #f4f6f6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -37,8 +38,23 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-.transparent-img {
-  opacity: 0.4;
+.image-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
+}
+
+.image-container p {
+  color: #fff;
 }
 
 #mywork-image {
