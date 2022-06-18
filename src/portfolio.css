@@ -47,10 +47,10 @@ img {
 .image-container .content {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(148, 177, 170, 0.7);
+  background: rgba(148, 177, 170, 0.5);
   width: 100%;
-  padding: 20px;
+  height: 100%;
+  padding: 100px;
 }
 
 .image-container p {
@@ -208,5 +208,10 @@ footer .footer-border-container {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .navigation-links a {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
