@@ -184,18 +184,14 @@ h3 {
   filter: drop-shadow(2px 4px 1px rgb(0 0 0 / 0.3));
 }
 
-footer .logo img {
+footer .logo {
   width: 50px;
   border-radius: 50%;
 }
 
-footer .footer-border-container {
-  border-top: 10px outset var(--border-color);
+.footer-container {
+  padding-top: 100px;
   margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  width: 100%;
-  background-color: var(--secondary-bg-color);
 }
 
 @media (max-width: 900px) {
@@ -205,6 +201,10 @@ footer .footer-border-container {
 
   h2 {
     font-size: 32px;
+  }
+
+  h3 {
+    margin-top: 40px;
   }
 
   .hero {
@@ -220,5 +220,13 @@ footer .footer-border-container {
   .navigation-links a {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .logoTextSpan {
+    display: block;
+  }
+
+  .logo {
+    display: none;
   }
 }
