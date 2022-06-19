@@ -113,6 +113,11 @@ img {
   color: var(--primary-text-color);
 }
 
+.middle-button {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
 .hero h1,
 h2,
 h3 {
