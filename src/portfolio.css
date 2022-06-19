@@ -136,6 +136,7 @@ h3 {
 .navbar a:hover {
   background-color: var(--secondary-bg-color);
   border-radius: 20px;
+  text-decoration: underline;
 }
 
 .logo-nav {
@@ -156,8 +157,12 @@ h3 {
   padding: 120px 60px;
 }
 
-.linkedin-link {
-  color: #000;
+.link {
+  color: var(--primary-text-color);
+  transition: all 200ms ease;
+}
+
+.link:hover {
   text-decoration: underline;
 }
 
@@ -174,7 +179,7 @@ h3 {
   display: flex;
   font-size: 38px;
   justify-content: left;
-  color: #000;
+  color: var(--primary-text-color);
   padding-left: 25px;
   filter: drop-shadow(2px 4px 1px rgb(0 0 0 / 0.3));
 }
