@@ -113,9 +113,8 @@ img {
   color: var(--primary-text-color);
 }
 
-.middle-button {
-  margin-left: 240px;
-  margin-right: 240px;
+.navigation-links {
+  gap: 1rem;
 }
 
 .hero h1,
